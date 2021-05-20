@@ -42,7 +42,7 @@
             <header>What you should already know </header>
             <article>
                 <p> 
-                    <ul>
+                    <ul class="know-list">
                         <li>How to use a computer</li>
                         <li>How to go to a webpage</li>
                         <li>How to use a texteditor</li>
@@ -80,13 +80,18 @@
                 <p>
                     HTML elements always starts with an opening tag and almost always ends with a closing tag
                    <pre>
-                    <code><html>
-                        <body>
-                            <p>Here you can see the opening and closing tags for different elements</p>
-                            <p> There are some elements that are self-closing, example <code><img src="imagesource"></code></p>
-                        </body>
-                    </html></code>
-                </pre>
+                       <code>
+                           &lt;html&gt;
+                           &lt;head&gt;
+                           &lt;/head&gt;
+                           &lt;body&gt;
+                           &lt;h1&gt; This is the page heading&lt;h1&gt;
+                           &lt;p&gt; Here is a very basic structure of a webpage. &lt;p&gt;
+                           &lt;/body&gt;
+                           &lt;/html&gt;
+                        
+                       </code>
+                   </pre>
                 </p>
             </article>
         </section>
@@ -96,10 +101,11 @@
                 <p>
                     Attributes provide additional information to a HTML tag.
                     They are always written in the opening tag for an element.</p>
+                    <pre>
                         <code>***Example***</code>
-                        <code><a href="thisisanattribute.com"></a></code>
-                        <code><p class="classattribute"</p></code>
-                    
+                        <code>&lt;a href="thisisanattribute.com"&gt;&lt;/a&gt;</code>
+                        <code>&lt;p class="classattribute"&gt;&lt;/p&gt;</code>
+                    </pre>
                 
                 <p>Above examples shows the href-attribute for linking webpages and the class-attribute to assign a class to an element.</p>
             </article>
@@ -110,17 +116,31 @@
                     <p>
                         Headings are the titles in a webpage are defined in different sizes raning from 1 to 6, where 1 is most important.
                     </p>
-                            <code><h1>Heading 1</h1></code>
-                            <code><h2>Heading 2</h2></code>
-                            <code><h3>Heading 3</h3></code>
-                            <code><h4>Heading 4</h4></code>
-                            <code><h5>Heading 5</h5></code>
-                            <code><h6>Heading 6</h6></code>
-                        
+                    <pre>
+                            <code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code>
+                            <code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code>
+                            <code>&lt;h3&gt;Heading 3&lt;/h3&gt;</code>
+                            <code>&lt;h4&gt;Heading 4&lt;/h4&gt;</code>
+                            <code>&lt;h5&gt;Heading 5&lt;/h5&gt;</code>
+                            <code>&lt;h6&gt;Heading 6&lt;/h6&gt;</code>
+                        </pre>    
                     <p>
                         Headings are used by search engines to index the structure and content of a webpage. 
                     </p>
                 </article>
+        </section>
+        <section class="main-section" id="Paragraphs">
+            <header>Pragraphs</header>
+            <article>
+                <p>Paragraphs are section of text enclosed in <code>&lt;p&gt;</code> tags. </p>
+            </article>
+
+        </section>
+        <section class="main-section" id="Formatting_text">
+            <header>Formatting text</header>
+            <article>
+                <p>Formatting text is usually done through CSS but can be done with inline html-tags like <code>&lt;strong&gt;</code> which will make the enclosed text bold.</p>
+            </article>
         </section>
     </main>
 </body>
