@@ -18,7 +18,30 @@ body {
     border-color: rgba(0, 22, 22, 0.4);
   }
 
+
+header {
+    color: rgb(46, 145, 37);
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: thin;
+}
+
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+}
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
 #navbar li {
+    text-align: left;
     list-style: none;
     color:#a8c78e;
     position:relative;
@@ -28,11 +51,12 @@ body {
 
 #navbar a {
     display:block;
-    padding: 15px 30px;
+    padding: 10px 30px;
     cursor: pointer;
     color:#a8c78e;
     text-decoration: none;
 }
+
 
 #main-doc {
     position: absolute;
@@ -40,3 +64,33 @@ body {
     padding: 20px;
     margin-bottom: 100px;
 }
+
+section li {
+    margin: 15px 0px 0px 0px;
+}
+
+pre code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #250242;
+    color: #09dd02;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+
+p {
+    text-align: left;
+    word-break: normal;
+    word-wrap: normal;
+}
+
+#know-list li {
+    list-style: georgian;
+}
+
